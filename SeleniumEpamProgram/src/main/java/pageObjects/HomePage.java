@@ -23,6 +23,9 @@ public class HomePage {
     @FindBy(how = How.XPATH, using = "//a[@href='/sampleapp']")
     private WebElement sampleApp;
 
+    @FindBy(how = How.XPATH, using = "//a[@href='/classattr']")
+    private WebElement classAttribute;
+
 
     public void navigateToHomePage(){
         driver.get(FileReaderManager.getInstance().getConfigReader().getAppPath());
@@ -34,6 +37,10 @@ public class HomePage {
 
     public void openSampleAppPage() {
         sampleApp.click();
+    }
+
+    public void openClassAttributePage() {
+        classAttribute.click();
     }
 
 }

@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a807f477-be88-42b0-88b8-051c262e72d7" name="Default Changelist" comment="" />
+    <list default="true" id="a807f477-be88-42b0-88b8-051c262e72d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/MavenTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/src/test/java/com/uitestingplayground/features/SampleApp.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/src/main/java/managers/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/src/main/java/managers/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/src/main/java/pageObjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/src/main/java/pageObjects/SampleAppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/src/main/java/pageObjects/SampleAppPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/src/test/java/com/uitestingplayground/features/Test.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/src/test/java/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/src/test/java/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/src/test/java/com/uitestingplayground/stepsDefinition/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/src/test/java/com/uitestingplayground/stepsDefinition/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/src/test/java/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/src/test/java/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/target/classes/META-INF/SeleniumEpamProgram.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/target/classes/managers/PageObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/target/classes/managers/PageObjectManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/target/classes/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/target/classes/pageObjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/target/classes/pageObjects/SampleAppPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/target/classes/pageObjects/SampleAppPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/target/test-classes/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/target/test-classes/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/target/test-classes/com/uitestingplayground/stepsDefinition/HomePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/target/test-classes/com/uitestingplayground/stepsDefinition/HomePageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumEpamProgram/target/test-classes/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumEpamProgram/target/test-classes/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +61,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1T449SQMhjVWOOiLWsx8Zm32PPU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -137,6 +160,7 @@
       <workItem from="1572360340960" duration="1018000" />
       <workItem from="1572361485367" duration="965000" />
       <workItem from="1572705883392" duration="3262000" />
+      <workItem from="1573818523152" duration="3983000" />
     </task>
     <servers />
   </component>
@@ -180,7 +204,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,44 +1,52 @@
 package com.uitestingplayground.stepsDefinition;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import cucumber.TestContext;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 import pageObjects.SampleAppPage;
-
-import java.util.concurrent.TimeUnit;
 
 public class SampleAppPageSteps {
 
-    private WebDriver driver;
+    private TestContext testContext;
     private SampleAppPage sampleAppPage;
 
-    @BeforeClass(description = "Start browser")
-    public void startBrowser (){
-
-        String path = System.getProperty("user.dir");
-        System.out.println(path);
-        System.setProperty("webdriver.chrome.driver", path+ "\\chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS) ;
-        driver.manage().window().maximize();
-        driver.get("http://www.uitestingplayground.com/sampleapp");
-        sampleAppPage = new SampleAppPage(driver);
-
-
+    public SampleAppPageSteps(TestContext context) {
+        testContext = context;
+        sampleAppPage = testContext.getPageObjectManager().getSampleAppPage();
     }
-
-    @Test(description = "I am on the sample app page")
-    public void sampleAppPageAssert() {
+    @Then("^I assert that the page is loaded$")
+    public void iAssertThatThePageIsLoaded() {
         Assert.assertEquals(sampleAppPage.getSampleAppTitle(),"Sample App");
     }
 
-    @Test(description = "Login test")
-    public void loginSampleApp() {
-        sampleAppPage.fillUsername("test");
-        sampleAppPage.fillPassword("pwd");
+    @When("^I fill username \"([^\"]*)\"$")
+    public void iFillUsername(String username) throws InterruptedException {
+        sampleAppPage.fillUsername(username);
+    }
+
+    @When("^I fill password \"([^\"]*)\"$")
+    public void iFillPassword(String pass){
+        sampleAppPage.fillPassword(pass);
+    }
+
+    @When("^I click the submit button$")
+    public void iClickTheSubmitButton() {
         sampleAppPage.clickLoginButton ();
+    }
+
+    @Then("^I assert successful login$")
+    public void iAssertSuccessfulLogin() {
         Assert.assertEquals(sampleAppPage.getSuccessLoginText(),"Welcome, test!");
+    }
+
+    @Then("^I assert unsuccessful login$")
+    public void iAssertUnsuccessfulLogin() {
+        Assert.assertEquals(sampleAppPage.getUnSuccessLoginText(),"Invalid username/password");
+    }
+
+    @When("^I wait full load$")
+    public void iWaitFullLoad() {
+        sampleAppPage.waitFullLoad();
     }
 }
