@@ -44,6 +44,12 @@ public class ConfigFileReader {
         else throw new RuntimeException("appPath not specified in the Configuration.properties file.");
     }
 
+    public String getEbayAppPath(){
+        String appPath = properties.getProperty("ebayAppUrl");
+        if(appPath!= null) return appPath;
+        else throw new RuntimeException("appPath not specified in the Configuration.properties file.");
+    }
+
     public DriverType getBrowser() {
         String browserName = properties.getProperty("browser");
         if(browserName == null || browserName.equals("chrome")) return DriverType.CHROME;

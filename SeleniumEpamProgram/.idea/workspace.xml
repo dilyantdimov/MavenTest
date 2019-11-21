@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a039df61-373c-4d23-83af-f2dc0394b510" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/MavenTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/SampleApp.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SampleAppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SampleAppPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/Test.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/HomePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/managers/PageObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/PageObjectManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/SampleAppPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SampleAppPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/HomePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/HomePageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RestAssured">
+  <component name="RunManager" selected="TestNG.TestRunner">
     <configuration name="Feature: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/test.feature" />
@@ -134,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RestAssured" />
         <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="TestNG.RestAssured" />
         <item itemvalue="Cucumber java.Feature: test" />
       </list>
     </recent_temporary>
@@ -159,7 +145,8 @@
       <workItem from="1572695272189" duration="9700000" />
       <workItem from="1573727842558" duration="241000" />
       <workItem from="1573728108308" duration="129000" />
-      <workItem from="1573813670618" duration="20552000" />
+      <workItem from="1573813670618" duration="20968000" />
+      <workItem from="1574353667077" duration="8365000" />
     </task>
     <servers />
   </component>
