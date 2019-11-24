@@ -16,9 +16,7 @@ public class PageObjectManager {
     private EbayPage ebayPage;
 
     public PageObjectManager(WebDriver driver) {
-
         this.driver = driver;
-
     }
 
     public HomePage getHomePage(){

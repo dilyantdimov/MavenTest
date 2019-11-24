@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a039df61-373c-4d23-83af-f2dc0394b510" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/Configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProviders/ConfigFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/managers/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/EbayPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/EbayPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SampleAppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SampleAppPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/Ebay.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/Ebay.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/PopupTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/PopupTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/SampleApp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/SampleApp.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/EbayPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/EbayPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/SeleniumEpamProgram.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cucumber/TestContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cucumber/TestContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataProviders/ConfigFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataProviders/ConfigFileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/enums/DriverType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/enums/DriverType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/enums/EnvironmentType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/enums/EnvironmentType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/managers/FileReaderManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/FileReaderManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/managers/PageObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/PageObjectManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/managers/WebDriverManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/WebDriverManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/managers/WebDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/WebDriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/ClassAttributePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ClassAttributePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/EbayPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/EbayPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/SampleAppPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SampleAppPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/REST/RestAssured.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/REST/RestAssured.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/EbayPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/EbayPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/HomePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/HomePageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="XML Properties File" />
         <option value="Class" />
       </list>
     </option>
@@ -49,9 +80,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3643678" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,7 +177,8 @@
       <workItem from="1573727842558" duration="241000" />
       <workItem from="1573728108308" duration="129000" />
       <workItem from="1573813670618" duration="20968000" />
-      <workItem from="1574353667077" duration="8365000" />
+      <workItem from="1574353667077" duration="8756000" />
+      <workItem from="1574506139757" duration="33682000" />
     </task>
     <servers />
   </component>
@@ -165,81 +197,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3643678" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3643678" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3643678" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3643678" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>SeleniumEpamProgram</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3643678" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3643678" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

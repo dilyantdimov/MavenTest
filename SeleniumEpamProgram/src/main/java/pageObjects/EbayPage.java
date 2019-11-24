@@ -1,6 +1,9 @@
 package pageObjects;
 
 import managers.FileReaderManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,12 +16,14 @@ public class EbayPage {
 
     private WebDriver driver;
     private WebDriverWait wait;
+    private Logger logger;
     public String item;
 
     public EbayPage(WebDriver driver){
         this.driver=driver;
-        wait =  new WebDriverWait(driver,10);
+        wait =  new WebDriverWait(driver,5);
         PageFactory.initElements(driver, this);
+        logger = LogManager.getRootLogger();
     }
 
     @FindBy(how = How.CSS, using = "#gh-cart")
@@ -45,11 +50,18 @@ public class EbayPage {
     @FindBy(how = How.CSS, using = ".main-title")
     private WebElement shoppingCartTitle;
 
-    @FindBy(how = How.CSS, using = ".BOLD")
+    @FindBy(how = How.XPATH, using = "//div[contains(@class,'listsummary')]//*[@class='BOLD']")
     private WebElement itemInCartTitle;
+
+    @FindBy(how = How.CSS, using = "#msku-sel-1")
+    private WebElement optionsDropdown;
+
+    @FindBy(how = How.CSS, using = "#msku-opt-0")
+    private WebElement optionOne;
 
     public void navigateToEbayPage(){
         driver.get(FileReaderManager.getInstance().getConfigReader().getEbayAppPath());
+        wait.until(ExpectedConditions.elementToBeClickable(ebayLogo));
     }
 
     public String getEbayLogo(){
@@ -90,4 +102,22 @@ public class EbayPage {
         wait.until(ExpectedConditions.visibilityOf(itemInCartTitle));
         return itemInCartTitle.getText();
     }
+
+    public void checkForOptionsDropdown(){
+        try {
+            if (optionsDropdown.isDisplayed()) {
+                optionsDropdown.click();
+                wait.until(ExpectedConditions.elementToBeClickable(optionOne));
+                optionOne.click();
+            }
+        } catch (NullPointerException | NoSuchElementException e) {
+//            System.err.println("Unable to locate element '" + optionsDropdown + "'");
+            logger.info("Unable to locate element '" + optionsDropdown + "'");
+        } catch (Exception e) {
+//            System.err.println("Unable to check display status of element '" + optionsDropdown + "'");
+            logger.info("Unable to check display status of element '" + optionsDropdown + "'");
+            e.printStackTrace();
+        }
+    }
+
 }

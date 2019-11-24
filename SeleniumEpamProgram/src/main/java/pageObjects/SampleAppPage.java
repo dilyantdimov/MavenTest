@@ -1,5 +1,7 @@
 package pageObjects;
 
+import StaticFactoryDesignPattern.StaticFactoryMethod;
+import StaticFactoryDesignPattern.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -42,17 +44,24 @@ public class SampleAppPage {
     @FindBy(how = How.CSS, using = "#license")
     private WebElement licenseSection;
 
+    private User testUser = StaticFactoryMethod.createSimpleUser();
+    private  User password = StaticFactoryMethod.createUserFromPassword("dummyPass");
+
     public String getSampleAppTitle() {
         return sampleAppTitle.getText();
     }
 
-    public void fillUsername (String username){
+    public void fillUsername (){
         userNameField.click();
-        userNameField.sendKeys(username);
+
+        userNameField.sendKeys(testUser.getFirstName());
     }
 
-    public void fillPassword (String password){
-        passwordField.sendKeys(password);
+    public void fillPassword (){
+        passwordField.sendKeys(testUser.getPassword());
+    }
+    public void fillWrongPassword (){
+        passwordField.sendKeys(password.getPassword());
     }
 
     public void clickLoginButton (){

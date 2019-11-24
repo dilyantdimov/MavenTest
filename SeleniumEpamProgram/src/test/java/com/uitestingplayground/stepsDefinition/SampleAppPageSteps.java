@@ -20,24 +20,24 @@ public class SampleAppPageSteps {
         Assert.assertEquals(sampleAppPage.getSampleAppTitle(),"Sample App");
     }
 
-    @When("^I fill username \"([^\"]*)\"$")
-    public void iFillUsername(String username) throws InterruptedException {
-        sampleAppPage.fillUsername(username);
+    @When("^I fill username")
+    public void iFillUsername(){
+        sampleAppPage.fillUsername();
     }
 
-    @When("^I fill password \"([^\"]*)\"$")
-    public void iFillPassword(String pass){
-        sampleAppPage.fillPassword(pass);
+    @When("^I fill password")
+    public void iFillPassword(){
+        sampleAppPage.fillPassword();
     }
 
     @When("^I click the submit button$")
-    public void iClickTheSubmitButton() {
+    public void iClickTheSubmitButton(){
         sampleAppPage.clickLoginButton ();
     }
 
     @Then("^I assert successful login$")
     public void iAssertSuccessfulLogin() {
-        Assert.assertEquals(sampleAppPage.getSuccessLoginText(),"Welcome, test!");
+        Assert.assertEquals(sampleAppPage.getSuccessLoginText(),"Welcome, TestUser!");
     }
 
     @Then("^I assert unsuccessful login$")
@@ -48,5 +48,10 @@ public class SampleAppPageSteps {
     @When("^I wait full load$")
     public void iWaitFullLoad() {
         sampleAppPage.waitFullLoad();
+    }
+
+    @When("^I fill wrong password$")
+    public void iFillWrongPassword() {
+        sampleAppPage.fillWrongPassword();
     }
 }

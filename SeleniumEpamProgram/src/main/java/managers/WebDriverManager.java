@@ -10,22 +10,22 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import java.util.concurrent.TimeUnit;
 
 public class WebDriverManager {
-    private WebDriver driver;
+    private static WebDriver driver;
     private static DriverType driverType;
     private static EnvironmentType environmentType;
     private static final String CHROME_DRIVER_PROPERTY = "webdriver.chrome.driver";
 
     public WebDriverManager() {
-        driverType = FileReaderManager.getInstance().getConfigReader().getBrowser();
-        environmentType = FileReaderManager.getInstance().getConfigReader().getEnvironment();
+        driverType = FileReaderManager.getConfigReader().getBrowser();
+        environmentType = FileReaderManager.getConfigReader().getEnvironment();
     }
 
-    public WebDriver getDriver() {
+    public static WebDriver getDriver() {
         if(driver == null) driver = createDriver();
         return driver;
     }
 
-    private WebDriver createDriver() {
+    private static WebDriver createDriver() {
         switch (environmentType) {
             case LOCAL : driver = createLocalDriver();
                 break;
@@ -35,17 +35,17 @@ public class WebDriverManager {
         return driver;
     }
 
-    private WebDriver createRemoteDriver() {
+    private static WebDriver createRemoteDriver() {
         throw new RuntimeException("RemoteWebDriver is not yet implemented");
     }
 
-    private WebDriver createLocalDriver() {
+    private static WebDriver createLocalDriver() {
         switch (driverType) {
             case FIREFOX : driver = new FirefoxDriver();
                 break;
             case CHROME :
                 String path = System.getProperty("user.dir");
-                System.out.println(path);
+                //System.out.println(path);
                 System.setProperty(CHROME_DRIVER_PROPERTY, path + FileReaderManager.getInstance().getConfigReader().getDriverPath());
                 driver = new ChromeDriver();
                 break;
@@ -61,5 +61,6 @@ public class WebDriverManager {
     public void closeDriver() {
         driver.close();
     }
+
 
 }
