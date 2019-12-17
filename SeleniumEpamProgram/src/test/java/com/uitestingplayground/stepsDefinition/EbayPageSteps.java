@@ -11,14 +11,12 @@ import pageObjects.EbayPage;
 
 public class EbayPageSteps {
 
-    private TestContext testContext;
     private EbayPage ebayPage;
     private Logger logger;
 
 
     public EbayPageSteps(TestContext context){
-        testContext = context;
-        ebayPage = testContext.getPageObjectManager().getEbayPage();
+        ebayPage = context.getPageObjectManager().getEbayPage();
         logger = LogManager.getRootLogger();
     }
 

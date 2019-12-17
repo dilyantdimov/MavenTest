@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a039df61-373c-4d23-83af-f2dc0394b510" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/Configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/FileReaderManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/PageObjectManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/managers/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/WebDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/EbayPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/EbayPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SampleAppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SampleAppPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/Ebay.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/Ebay.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/PopupTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/PopupTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/SampleApp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/features/SampleApp.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/EbayPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/EbayPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/SeleniumEpamProgram.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cucumber/TestContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cucumber/TestContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataProviders/ConfigFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataProviders/ConfigFileReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/enums/DriverType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/enums/DriverType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/enums/EnvironmentType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/enums/EnvironmentType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/managers/FileReaderManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/FileReaderManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/managers/PageObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/PageObjectManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/managers/WebDriverManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/WebDriverManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/managers/WebDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/WebDriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/ClassAttributePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ClassAttributePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/EbayPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/EbayPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/SampleAppPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SampleAppPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/REST/RestAssured.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/REST/RestAssured.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/runners/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/ClassAttributePageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/EbayPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/EbayPageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/HomePageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/HomePageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/uitestingplayground/stepsDefinition/SampleAppPageSteps.class" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="a039df61-373c-4d23-83af-f2dc0394b510" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +21,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Repos\EpamMentoringProgram\SeleniumEpamProgram\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -70,11 +40,18 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572695023033" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -82,19 +59,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3643678" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RunManager" selected="TestNG.TestRunner">
     <configuration name="Feature: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -153,9 +118,20 @@
       <list>
         <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.RestAssured" />
-        <item itemvalue="Cucumber java.Feature: test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -178,7 +154,14 @@
       <workItem from="1573728108308" duration="129000" />
       <workItem from="1573813670618" duration="20968000" />
       <workItem from="1574353667077" duration="8756000" />
-      <workItem from="1574506139757" duration="33682000" />
+      <workItem from="1574506139757" duration="33684000" />
+      <workItem from="1574753724283" duration="40000" />
+      <workItem from="1575211924921" duration="2459000" />
+      <workItem from="1575640982093" duration="246000" />
+      <workItem from="1575725326941" duration="7896000" />
+      <workItem from="1575896019781" duration="584000" />
+      <workItem from="1575896983692" duration="1284000" />
+      <workItem from="1576482942081" duration="531000" />
     </task>
     <servers />
   </component>
@@ -197,5 +180,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="277" y="54" key="SettingsEditor" timestamp="1576576936794">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576576936794" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1576486635463">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576486635463" />
+    <state x="463" y="17" width="609" height="789" key="find.popup" timestamp="1576575358553">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="17" width="609" height="789" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576575358553" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1576498287213">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1576498287213" />
   </component>
 </project>

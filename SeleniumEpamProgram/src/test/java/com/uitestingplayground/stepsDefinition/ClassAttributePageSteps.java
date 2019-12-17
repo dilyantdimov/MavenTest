@@ -7,12 +7,10 @@ import org.testng.annotations.Test;
 import pageObjects.ClassAttributePage;
 
 public class ClassAttributePageSteps {
-    private TestContext testContext;
     private ClassAttributePage classAttributePage;
 
     public ClassAttributePageSteps(TestContext context){
-        testContext = context;
-        classAttributePage = testContext.getPageObjectManager().getClassAttributePage();
+        classAttributePage = context.getPageObjectManager().getClassAttributePage();
     }
 
     @Test(description = "popup test")
@@ -29,5 +27,10 @@ public class ClassAttributePageSteps {
     @Then("^I close the alert$")
     public void iCloseTheAlert() {
         classAttributePage.closePopup();
+    }
+
+    @And("^I wait for page to be fully loaded$")
+    public void iWaitForPageToBeFullyLoaded() throws InterruptedException {
+        classAttributePage.waitFullLoad();
     }
 }

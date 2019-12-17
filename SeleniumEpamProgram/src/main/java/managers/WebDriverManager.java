@@ -58,7 +58,7 @@ public class WebDriverManager {
         return driver;
     }
 
-    public void closeDriver() {
+    public static void closeDriver() {
         driver.close();
     }
 

@@ -2,19 +2,19 @@ package pageObjects;
 
 import StaticFactoryDesignPattern.StaticFactoryMethod;
 import StaticFactoryDesignPattern.User;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import static support.WaitForPageLoad.waitForPageLoaded;
 
 public class SampleAppPage {
 
-    WebDriver driver;
-    WebDriverWait wait;
+    private WebDriver driver;
+    private WebDriverWait wait;
 
     public SampleAppPage(WebDriver driver) {
         this.driver = driver;
@@ -76,8 +76,8 @@ public class SampleAppPage {
         return unSuccessLoginText.getText();
     }
 
-    public void waitFullLoad (){
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("fork")));
+    public void waitFullLoad () throws InterruptedException{
+        waitForPageLoaded(driver);
     }
 
 }

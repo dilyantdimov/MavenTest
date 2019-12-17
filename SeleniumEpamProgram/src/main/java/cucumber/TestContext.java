@@ -4,16 +4,11 @@ import managers.PageObjectManager;
 import managers.WebDriverManager;
 
 public class TestContext {
-    private WebDriverManager webDriverManager;
     private PageObjectManager pageObjectManager;
 
     public TestContext(){
-        webDriverManager = new WebDriverManager();
-        pageObjectManager = new PageObjectManager(webDriverManager.getDriver());
-    }
-
-    public WebDriverManager getWebDriverManager() {
-        return webDriverManager;
+        WebDriverManager webDriverManager = new WebDriverManager();
+        pageObjectManager = new PageObjectManager(WebDriverManager.getDriver());
     }
 
     public PageObjectManager getPageObjectManager() {

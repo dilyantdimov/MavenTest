@@ -8,12 +8,10 @@ import pageObjects.HomePage;
 
 public class HomePageSteps {
 
-    TestContext testContext;
-    HomePage homePage;
+    private HomePage homePage;
 
     public HomePageSteps(TestContext context) {
-        testContext = context;
-        homePage = testContext.getPageObjectManager().getHomePage();
+        homePage = context.getPageObjectManager().getHomePage();
     }
 
     @Given("^I am on the Homepage$")
@@ -32,6 +30,6 @@ public class HomePageSteps {
     @When("^I open Class Attribute page$")
     public void iOpenClassAttributePage() throws InterruptedException {
         homePage.openClassAttributePage();
-        Thread.sleep(2000);
+        //Thread.sleep(2000);
     }
 }

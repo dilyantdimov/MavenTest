@@ -8,12 +8,10 @@ import pageObjects.SampleAppPage;
 
 public class SampleAppPageSteps {
 
-    private TestContext testContext;
     private SampleAppPage sampleAppPage;
 
     public SampleAppPageSteps(TestContext context) {
-        testContext = context;
-        sampleAppPage = testContext.getPageObjectManager().getSampleAppPage();
+        sampleAppPage = context.getPageObjectManager().getSampleAppPage();
     }
     @Then("^I assert that the page is loaded$")
     public void iAssertThatThePageIsLoaded() {
@@ -46,7 +44,7 @@ public class SampleAppPageSteps {
     }
 
     @When("^I wait full load$")
-    public void iWaitFullLoad() {
+    public void iWaitFullLoad() throws InterruptedException {
         sampleAppPage.waitFullLoad();
     }
 
